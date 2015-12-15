@@ -67,7 +67,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(11, 24);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(192, 95);
             this.listBox1.TabIndex = 0;
@@ -76,19 +76,18 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(11, 136);
-            this.listBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox2.Location = new System.Drawing.Point(11, 150);
+            this.listBox2.Margin = new System.Windows.Forms.Padding(2);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(192, 95);
             this.listBox2.TabIndex = 1;
-            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
             // btnaddsal
             // 
-            this.btnaddsal.Location = new System.Drawing.Point(145, 236);
-            this.btnaddsal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnaddsal.Location = new System.Drawing.Point(145, 249);
+            this.btnaddsal.Margin = new System.Windows.Forms.Padding(2);
             this.btnaddsal.Name = "btnaddsal";
-            this.btnaddsal.Size = new System.Drawing.Size(57, 43);
+            this.btnaddsal.Size = new System.Drawing.Size(57, 25);
             this.btnaddsal.TabIndex = 2;
             this.btnaddsal.Text = "Ajouter";
             this.btnaddsal.UseVisualStyleBackColor = true;
@@ -97,29 +96,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 7);
+            this.label1.Location = new System.Drawing.Point(50, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 13);
+            this.label1.Size = new System.Drawing.Size(124, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Lise des Départements :";
+            this.label1.Text = "Liste des Départements :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(59, 120);
+            this.label2.Location = new System.Drawing.Point(67, 132);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 13);
+            this.label2.Size = new System.Drawing.Size(102, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Liste des salariés :";
+            this.label2.Text = "Liste des employés :";
             // 
             // btnsupprsal
             // 
-            this.btnsupprsal.Location = new System.Drawing.Point(71, 236);
-            this.btnsupprsal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnsupprsal.Location = new System.Drawing.Point(70, 249);
+            this.btnsupprsal.Margin = new System.Windows.Forms.Padding(2);
             this.btnsupprsal.Name = "btnsupprsal";
-            this.btnsupprsal.Size = new System.Drawing.Size(69, 43);
+            this.btnsupprsal.Size = new System.Drawing.Size(69, 25);
             this.btnsupprsal.TabIndex = 5;
             this.btnsupprsal.Text = "Supprimer";
             this.btnsupprsal.UseVisualStyleBackColor = true;
@@ -127,10 +126,10 @@
             // 
             // btndep
             // 
-            this.btndep.Location = new System.Drawing.Point(206, 46);
-            this.btndep.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btndep.Location = new System.Drawing.Point(207, 61);
+            this.btndep.Margin = new System.Windows.Forms.Padding(2);
             this.btndep.Name = "btndep";
-            this.btndep.Size = new System.Drawing.Size(129, 34);
+            this.btndep.Size = new System.Drawing.Size(129, 30);
             this.btndep.TabIndex = 6;
             this.btndep.Text = "Ajouter un département";
             this.btndep.UseVisualStyleBackColor = true;
@@ -138,18 +137,18 @@
             // 
             // txtdep
             // 
-            this.txtdep.Location = new System.Drawing.Point(238, 24);
-            this.txtdep.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtdep.Location = new System.Drawing.Point(237, 37);
+            this.txtdep.Margin = new System.Windows.Forms.Padding(2);
             this.txtdep.Name = "txtdep";
             this.txtdep.Size = new System.Drawing.Size(97, 20);
             this.txtdep.TabIndex = 7;
             // 
             // supprdep
             // 
-            this.supprdep.Location = new System.Drawing.Point(206, 85);
-            this.supprdep.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.supprdep.Location = new System.Drawing.Point(206, 95);
+            this.supprdep.Margin = new System.Windows.Forms.Padding(2);
             this.supprdep.Name = "supprdep";
-            this.supprdep.Size = new System.Drawing.Size(128, 32);
+            this.supprdep.Size = new System.Drawing.Size(128, 22);
             this.supprdep.TabIndex = 14;
             this.supprdep.Text = "Supprimer département";
             this.supprdep.UseVisualStyleBackColor = true;
@@ -158,7 +157,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(206, 26);
+            this.label6.Location = new System.Drawing.Point(205, 39);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(29, 13);
@@ -167,10 +166,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(11, 236);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(11, 249);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 43);
+            this.button1.Size = new System.Drawing.Size(56, 25);
             this.button1.TabIndex = 16;
             this.button1.Text = "Infos";
             this.button1.UseVisualStyleBackColor = true;
@@ -185,9 +184,9 @@
             this.gBsal.Controls.Add(this.txtnums);
             this.gBsal.Controls.Add(this.txtnoms);
             this.gBsal.Location = new System.Drawing.Point(206, 170);
-            this.gBsal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gBsal.Margin = new System.Windows.Forms.Padding(2);
             this.gBsal.Name = "gBsal";
-            this.gBsal.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gBsal.Padding = new System.Windows.Forms.Padding(2);
             this.gBsal.Size = new System.Drawing.Size(133, 101);
             this.gBsal.TabIndex = 18;
             this.gBsal.TabStop = false;
@@ -226,7 +225,7 @@
             // txtsal
             // 
             this.txtsal.Location = new System.Drawing.Point(79, 63);
-            this.txtsal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtsal.Margin = new System.Windows.Forms.Padding(2);
             this.txtsal.Name = "txtsal";
             this.txtsal.Size = new System.Drawing.Size(48, 20);
             this.txtsal.TabIndex = 16;
@@ -234,7 +233,7 @@
             // txtnums
             // 
             this.txtnums.Location = new System.Drawing.Point(43, 20);
-            this.txtnums.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtnums.Margin = new System.Windows.Forms.Padding(2);
             this.txtnums.Name = "txtnums";
             this.txtnums.Size = new System.Drawing.Size(84, 20);
             this.txtnums.TabIndex = 15;
@@ -242,7 +241,7 @@
             // txtnoms
             // 
             this.txtnoms.Location = new System.Drawing.Point(43, 41);
-            this.txtnoms.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtnoms.Margin = new System.Windows.Forms.Padding(2);
             this.txtnoms.Name = "txtnoms";
             this.txtnoms.Size = new System.Drawing.Size(84, 20);
             this.txtnoms.TabIndex = 14;
@@ -258,9 +257,9 @@
             this.gBtemp.Controls.Add(this.txtnump);
             this.gBtemp.Controls.Add(this.txtnomp);
             this.gBtemp.Location = new System.Drawing.Point(204, 170);
-            this.gBtemp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gBtemp.Margin = new System.Windows.Forms.Padding(2);
             this.gBtemp.Name = "gBtemp";
-            this.gBtemp.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gBtemp.Padding = new System.Windows.Forms.Padding(2);
             this.gBtemp.Size = new System.Drawing.Size(135, 114);
             this.gBtemp.TabIndex = 20;
             this.gBtemp.TabStop = false;
@@ -270,7 +269,7 @@
             // txtnbh
             // 
             this.txtnbh.Location = new System.Drawing.Point(69, 84);
-            this.txtnbh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtnbh.Margin = new System.Windows.Forms.Padding(2);
             this.txtnbh.Name = "txtnbh";
             this.txtnbh.Size = new System.Drawing.Size(58, 20);
             this.txtnbh.TabIndex = 26;
@@ -278,7 +277,7 @@
             // txttaux
             // 
             this.txttaux.Location = new System.Drawing.Point(43, 63);
-            this.txttaux.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txttaux.Margin = new System.Windows.Forms.Padding(2);
             this.txttaux.Name = "txttaux";
             this.txttaux.Size = new System.Drawing.Size(84, 20);
             this.txttaux.TabIndex = 25;
@@ -326,7 +325,7 @@
             // txtnump
             // 
             this.txtnump.Location = new System.Drawing.Point(43, 20);
-            this.txtnump.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtnump.Margin = new System.Windows.Forms.Padding(2);
             this.txtnump.Name = "txtnump";
             this.txtnump.Size = new System.Drawing.Size(84, 20);
             this.txtnump.TabIndex = 20;
@@ -334,7 +333,7 @@
             // txtnomp
             // 
             this.txtnomp.Location = new System.Drawing.Point(43, 41);
-            this.txtnomp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtnomp.Margin = new System.Windows.Forms.Padding(2);
             this.txtnomp.Name = "txtnomp";
             this.txtnomp.Size = new System.Drawing.Size(84, 20);
             this.txtnomp.TabIndex = 19;
@@ -343,7 +342,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(206, 148);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(57, 17);
             this.radioButton1.TabIndex = 21;
@@ -356,7 +355,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(262, 148);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(78, 17);
             this.radioButton2.TabIndex = 22;
@@ -378,7 +377,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(212, 7);
+            this.label12.Location = new System.Drawing.Point(210, 9);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(118, 13);
@@ -408,9 +407,10 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.gBsal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "TP Entreprise by William";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.gBsal.ResumeLayout(false);
             this.gBsal.PerformLayout();
             this.gBtemp.ResumeLayout(false);

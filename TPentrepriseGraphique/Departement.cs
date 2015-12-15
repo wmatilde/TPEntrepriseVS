@@ -6,43 +6,52 @@ using System.Threading.Tasks;
 
 namespace TPentrepriseGraphique
 {
+    [Serializable]
     public class Departement
     {
+        // Attributs
         private String nom;
         private int id;
-        private List<Salarie> collectionSalarie;
+        private List<Employe> collectionEmploye;
 
+        // PROPERTY du Nom du département
         public string Nom
         {
             get { return nom; }
             set { nom = value; }
         }
+        // Constructeur avec deux paramètres
         public Departement(string n, int num) 
         {
             this.nom = n;
             this.id = num;
-            collectionSalarie = new List<Salarie>();
+            collectionEmploye = new List<Employe>();
         }
+        // Constructeur avec un seul paramètre
         public Departement(string n)
         {
             this.nom = n;
-            collectionSalarie = new List<Salarie>();
+            collectionEmploye = new List<Employe>();
         }
-        public void addSalarie(Salarie s)
+        // Méthode permetant d'ajouter un Employe dans la collection
+        public void addEmploye(Employe emp)
         {
-            collectionSalarie.Add(s);
+            collectionEmploye.Add(emp);
         }
-        public void supprimSalarie(Salarie s)
+        // Méthode permetant de supprimer un Employe de la collection
+        public void supprimEmploye(Employe emp)
         {
-            collectionSalarie.Remove(s);
+            collectionEmploye.Remove(emp);
         }
-        public void supprimSalarie(int index)
+        // Méthode permetant de supprimer un Employe de la collection        
+        public void supprimEmploye(int index)
         {
-            collectionSalarie.RemoveAt(index);
+            collectionEmploye.RemoveAt(index);
         }
-        public List<Salarie> afficheListe()
+        // Méthode qui retourne la collection des Employe
+        public List<Employe> afficheListe()
         {
-            return (collectionSalarie);
+            return (collectionEmploye);
         }      
 
     }
